@@ -5,5 +5,6 @@ We developed an ensemble-based deep learning framework (**DeepEnsemble**) to pre
 
 ## Branchpoint annotation
 User can download pre-computed annotation files under the folder `data/bp_annotation`. We currently have two versions of annotations based on GENCODE V19 (hg19) or GENCODE V44 (hg38) reference for both predicted (cbp) and experimental-based (ebp) branchpoints. The file format is R-based object and can be accessible when you have
-[GenomicRanges] (https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) package installed.
+[GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) package installed.
+
 For example 
