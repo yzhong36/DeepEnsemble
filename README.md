@@ -32,3 +32,7 @@ GRanges object with 3 ranges and 7 metadata columns:
   -------
   seqinfo: 25 sequences from an unspecified genome; no seqlengths
 ```
+
+## Visualization in UCSC genome browser 
+We also provide an option to access branchpoint annotations through the [UCSC Genome Browser](https://genome.ucsc.edu/). 
+Click here for the [hg19](https://genome.ucsc.edu/s/yzhong/hg19_ebp_cbp) version and here for the [hg38](https://genome.ucsc.edu/s/yzhong/hg38_ebp_cbp) version. Users can bookmark these links for easy access in the future.
