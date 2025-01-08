@@ -37,3 +37,6 @@ GRanges object with 3 ranges and 7 metadata columns:
 We also provide an option to access branchpoint annotations through the [UCSC Genome Browser](https://genome.ucsc.edu/). 
 Click here for the [hg19](https://genome.ucsc.edu/s/yzhong/hg19_ebp_cbp) version and here for the [hg38](https://genome.ucsc.edu/s/yzhong/hg38_ebp_cbp) version. Users can bookmark these links for easy access in the future.
 ![Example Image](demo/ucsc_demo.png)
+
+## Contact
+This work is currently in progress during the manuscript preparation stage. For questions or support, please contact [yu_zhong@brown.edu](mailto:yu_zhong@brown.edu).
