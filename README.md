@@ -8,3 +8,9 @@ User can download pre-computed annotation files under the folder `data/bp_annota
 [GenomicRanges](https://bioconductor.org/packages/release/bioc/html/GenomicRanges.html) package installed.
 
 For example 
+```r
+library(GenomicRanges)
+
+cbp_v44 <- readRDS("data/bp_annotation/gencode_v44_cbp.rds")
+cbp_v44
+```
