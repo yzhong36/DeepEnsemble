@@ -1,1 +1,3 @@
 # Genome-wide annotation on functional Branchpoints in human genome
+## Introduction
+We developed an ensemble-based deep learning framework to predict intronic branchpoints, essential for RNA splicing, in the human genome. The model integrates sequence features and genomic distances to identify branchpoints within 70-nucleotide regions upstream of 3' splice sites. Additionally, we prioritized ClinVar branchpoint variants and extended the framework to quantify the effects of SNVs on branchpoint functionality.
