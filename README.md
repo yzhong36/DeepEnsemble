@@ -12,5 +12,26 @@ For example
 library(GenomicRanges)
 
 cbp_v44 <- readRDS("data/bp_annotation/gencode_v44_cbp.rds")
-cbp_v44
+head(cbp_v44, 3)
+
+GRanges object with 3 ranges and 7 metadata columns:
+      seqnames    ranges strand |       model_window   BP_prob     transcript_id     tx_type intron_type intron_length          intron_gr
+         <Rle> <IRanges>  <Rle> |          <GRanges> <numeric>       <character> <character> <character>     <integer>          <GRanges>
+  [1]     chr1     12572      + | chr1:12543-12612:+  0.520336 ENST00000456328.2      lncRNA          U2           385 chr1:12228-12612:+
+  [2]     chr1     12584      + | chr1:12543-12612:+  0.419528 ENST00000456328.2      lncRNA          U2           385 chr1:12228-12612:+
+  [3]     chr1     12593      + | chr1:12543-12612:+  0.656099 ENST00000456328.2      lncRNA          U2           385 chr1:12228-12612:+
+  -------
+  seqinfo: 25 sequences from an unspecified genome; no seqlengths
+
+ebp_v44 <- readRDS("data/bp_annotation/gencode_v44_ebp.rds")
+head(ebp_v44, 3)
+
+GRanges object with 3 ranges and 7 metadata columns:
+      seqnames    ranges strand |              source  n_source     transcript_id     tx_type intron_type intron_length            intron_gr
+         <Rle> <IRanges>  <Rle> |         <character> <integer>       <character> <character> <character>     <integer>            <GRanges>
+  [1]     chr1    781910      + | eBP_Mercer,eBP_Zeng         2 ENST00000434264.6      lncRNA          U2          2844 chr1:779093-781936:+
+  [2]     chr1    783082      + |            eBP_Zeng         1 ENST00000589899.5      lncRNA          U2          1067 chr1:782044-783110:+
+  [3]     chr1    786361      + |            eBP_Zeng         1 ENST00000586928.5      lncRNA          U2          1899 chr1:784494-786392:+
+  -------
+  seqinfo: 25 sequences from an unspecified genome; no seqlengths
 ```
