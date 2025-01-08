@@ -1,7 +1,5 @@
-import sys
-sys.path.append('src')
-from models import sub_model
-from utils import model_utils
+from src.models import sub_model
+from src.utils import model_utils
 from gensim.models import KeyedVectors
 import numpy as np
 import tensorflow as tf
