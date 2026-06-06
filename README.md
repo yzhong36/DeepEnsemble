@@ -40,4 +40,4 @@ Click here for the [hg19](https://genome.ucsc.edu/s/yzhong/hg19_ebp_cbp) version
 ![Example Image](demo/ucsc_demo.png)
 
 ## Contact
-This work is currently in progress during the manuscript preparation stage. For questions or support, please contact [yu_zhong@brown.edu](mailto:yu_zhong@brown.edu).
+This work is currently in progress during the manuscript preparation stage. For questions or support, please contact [yu_zhong@brown.edu](mailto:yu_zhong@alumni.brown.edu).
